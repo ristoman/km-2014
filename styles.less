@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-family:'Merriweather', Georgia, serif;
 }
 
-h2{border:2px solid}
+h2{border:2px solid; max-width:320px; display:block; margin:24px auto}
 
 h1,.alpha{font-size:50px}
 h2,.beta{font-size:42px}
@@ -71,6 +71,13 @@ header{
 
 #recommend{
 	.bg(@color_gray);
+	li{
+		display: inline-block;
+		margin: 0px 12px 12px 0px;
+		img{
+			vertical-align: none !important;
+		}
+	}
 }
 
 #articles{
