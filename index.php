@@ -1,58 +1,80 @@
-<!DOCTYPE html 
-      PUBLIC "-//W3C//DTD HTML 4.01//EN"
-      "http://www.w3.org/TR/html4/strict.dtd"><html lang="en-US">
-
-    <?php include('header.php') ?>
-
-<body>
-<header>
-	<div class="container">
-		<div class="row">
-			<div class="centered">
-				<img src="http://placehold.it/728x90" />
-			</div>
-			<h1 class="centered"><img src="header.jpg"></h1>
-		</div>
-	</div>
-	<div class="milli topmenu">
-		<div class="container">
-			<div class="row">
-				<ul>
-					<li>Photographers</li>
-					<li>Articles</li>
-					<li>Videos</li>
-					<li>Archive</li>
-					<li>World Press</li>
-					<li class="pull-right">About</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</header>
+<html lang="en-US">
+   <?php include('header.php') ?>
 <div id="cover">
-	<div class="row centered">
-		<img src="cover.jpg">
-	</div>
-	<div class="row credits padded epsilon">
-			<p>Foto:Tina Patni</p>
-			<ul>
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
-			</ul>
-		</div>
-	</div>
+	<div id="cover-slideshow" class="carousel slide" data-interval="5000" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#cover-slideshow" data-slide-to="0" class="active"></li>
+    <li data-target="#cover-slideshow" data-slide-to="1"></li>
+    <li data-target="#cover-slideshow" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img class="img-responsive" src="cover1.jpg" alt="KM15 Cover">
+      <div class="carousel-caption">
+        <p>Foto: Tina Patni</p>
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive"  src="cover2.jpg" alt="KM15 Cover">
+      <div class="carousel-caption">
+        <p>Foto: Tina Patni</p>
+      </div>
+    </div>
+    <div class="item">
+      <img class="img-responsive" src="http://placehold.it/1260x760" alt="KM15 Cover">
+      <div class="carousel-caption">
+        <p>Foto: Aaron Sosa</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <!--a class="left carousel-control" href="#cover-slideshow" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#cover-slideshow" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a-->
+</div>
+
 </div>
 <div id="photographers">
 	<div class="container">
 		<div class="row padded centered">
 			<h2 class="gamma centered headline">Photographers</h2>
-				<div class="slideshow">
-					<img src="photo.jpg">
+			<div id="photographer-carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+					<!-- Indicators -->
+				<ol class="carousel-indicators">
+				    <li data-target="#photographer-carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#photographer-carousel" data-slide-to="1"></li>
+				    <li data-target="#photographer-carousel" data-slide-to="2"></li>
+				</ol>
+
+				  <!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				    <div class="item active">
+				      	<a href="#"><img class="img-responsive" src="photo.jpg" alt="KM15 Cover"></a>
+				      	<div class="carousel-caption">
+				        	<h3 class="alpha"><b>Aaron Sosa</b></h3>
+				      	</div>
+				    </div>
+				    <div class="item">
+				      	<a href="#"><img class="img-responsive" src="http://placehold.it/960x600" alt="KM15 Cover"></a>
+				      	<div class="carousel-caption">
+				        	<p>Foto: Tina Patni</p>
+				      	</div>
+				    </div>
+				    <div class="item">
+				      	<a href="#"><img class="img-responsive" src="http://placehold.it/960x600" alt="KM15 Cover"></a>
+				      	<div class="carousel-caption">
+				        	<p>Foto: Aaron Sosa</p>
+				      	</div>
+				    </div>
 				</div>
-			<h3 class="alpha"><b>Aaron Sosa</b></h3>
-			<h4><a href="#"><i class="glyphicon glyphicon-circle-arrow-left"></i></a>
-			<a href="#"><i class="glyphicon glyphicon-circle-arrow-right"></i></a></h4>
+			</div>
 		</div>
 	</div>
 </div>
@@ -130,65 +152,77 @@
 			<div class="row padded">
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article1.php">
 								<h6 class="headline">by lady sybillia</h6>
-								<img src="art-1.jpg" />
+								<img class="img-responsive" src="art-1.jpg" />
 								<h3 class="delta">Chanel Advertising</h3>
+								</a>
 							</article>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article2.php">
 								<h6 class="headline">Exclusive Interview</h6>
-								<img src="art-2.jpg" />
+								<img class="img-responsive" src="art-2.jpg" />
 								<h3 class="delta">Harry Halim</h3>
+								</a>
 							</article>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article3.php">
 								<h6 class="headline">London</h6>
-								<img src="art-3.jpg" />
+								<img class="img-responsive" src="art-3.jpg" />
 								<h3 class="delta">Hello, my name is Paul Smith</h3>
 								<h5>The Design Museum</h5>
+								</a>
 							</article>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article4.php">
 								<h6 class="headline">by lady sybillia</h6>
-								<img src="art-4.jpg" />
+								<img class="img-responsive" src="art-4.jpg" />
 								<h3 class="delta">Hermes Accessories</h3>
+								</a>
 							</article>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article5.php">
 								<h6 class="headline">Artist</h6>
-								<img src="art-5.jpg" />
+								<img class="img-responsive" src="art-5.jpg" />
 								<h3 class="delta">Juko Shimizu</h3>
+								</a>
 							</article>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article6.php">
 								<h6 class="headline">Some Recommendations</h6>
-								<img src="art-6.jpg" />
+								<img class="img-responsive" src="art-6.jpg" />
 								<h3 class="delta">Quotes from Lao-Tse</h3>
+								</a>
 							</article>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article7.php">
 								<h6 class="headline">What Does it Mean?</h6>
-								<img src="art-7.jpg" />
+								<img class="img-responsive" src="art-7.jpg" />
 								<h3 class="delta">Hermes Accessories</h3>
+								</a>
 							</article>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
 							<article>
+								<a href="article8.php">
 								<h6 class="headline">Books</h6>
-								<img src="art-8.jpg" />
+								<img class="img-responsive" src="art-8.jpg" />
 								<h3 class="delta">Coming Soon from Taschen</h3>
+								</a>
 							</article>
 						</div>
 					</div>
@@ -202,7 +236,7 @@
 							<button>Submit</button>
 						</form>
 				</div>
-				<div class="ad centered padded">
+				<div class="ad centered padded hidden-xs">
 					<img src="http://placehold.it/160x600">
 				</div>
 			</div>
@@ -213,57 +247,63 @@
 	<div class="container">
 		<div class="row padded">
 			<h2 class="gamma centered headline">Videos</h2>
-			<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="col-lg-8 col-md-8">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<article>
-							<h6 class="headline">by lady sybillia</h6>
-							<img src="http://placehold.it/360x240" />
-							<h3 class="gamma">Chanel Advertising</h3>
+							<h6 class="headline">Big Think</h6>
+							<img class="img-responsive" src="http://placehold.it/360x240" />
+							<h5>Van Jones</h5>
+							<h3 class="delta">What's the Problem with the Individual Mandate?</h3>
 						</article>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<article>
-							<h6 class="headline">by lady sybillia</h6>
-							<img src="http://placehold.it/360x240" />
-							<h3 class="gamma">Chanel Advertising</h3>
+							<h6 class="headline">Big Think</h6>
+							<img class="img-responsive" src="http://placehold.it/360x240" />
+							<h5>David Eagleman</h5>
+							<h3 class="delta">The Secret Lives of the Brain</h3>
 						</article>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<article>
-							<h6 class="headline">by lady sybillia</h6>
-							<img src="http://placehold.it/360x240" />
-							<h3 class="gamma">Chanel Advertising</h3>
+							<h6 class="headline">Big Think</h6>
+							<img class="img-responsive" src="http://placehold.it/360x240" />
+							<h5>Robert Steven Kaplan</h5>
+							<h3 class="delta">Assessing Your Strengths and Weaknesses</h3>
 						</article>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<article>
-							<h6 class="headline">by lady sybillia</h6>
-							<img src="http://placehold.it/360x240" />
-							<h3 class="gamma">Chanel Advertising</h3>
+							<h6 class="headline">Big Think</h6>
+							<img class="img-responsive" src="http://placehold.it/360x240" />
+							<h5>Slavoj Zizek</h5>
+							<h3 class="delta">We Need Thinking</h3>
 						</article>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<article>
-							<h6 class="headline">by lady sybillia</h6>
-							<img src="http://placehold.it/360x240" />
-							<h3 class="gamma">Chanel Advertising</h3>
+							<h6 class="headline">Big Think</h6>
+							<img class="img-responsive" src="http://placehold.it/360x240" />
+							<h5>Ben Brantley</h5>
+							<h3 class="delta">The Power of the Critic</h3>
 						</article>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<article>
-							<h6 class="headline">by lady sybillia</h6>
-							<img src="http://placehold.it/360x240" />
-							<h3 class="gamma">Chanel Advertising</h3>
+							<h6 class="headline">Big Think</h6>
+							<img class="img-responsive" src="http://placehold.it/360x240" />
+							<h5>Eric Kandel</h5>
+							<h3 class="delta">Where Does Creativity Come From?</h3>
 						</article>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+			<div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
 				<img src="http://placehold.it/300x600" />
 			</div>
 		</div>
@@ -272,81 +312,77 @@
 <div id="press">
 	<div class="container">
 		<div class="row padded">
-			<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="col-lg-8 col-md-8 col-sm-8 zeta">
 				<h2 class="gamma centered headline">Press</h2>
-				<ul>
-					<li><a href="http://www.cbsnews.com/sections/60minutes/main3415.shtml" target="_blank">60 Minutes</a></li>
-					<li><a href="http://www.aljazeera.com/" target="_blank">Al Jazeera </a></li>
-					<li><a href="http://http://www.aldaily.com/" target="_blank">Arts &amp; Letters Daily</a></li>
-					<li><a href="http://http://bigthink.com/" target="_blank">Big Think </a></li>
-					<li><a href="http://www.csmonitor.com/" target="_blank">Christian Science Monitor</a></li>
-					<li><a href="http://edition.cnn.com/" target="_blank">CNN</a></li>
-					<li><a href="http://www.commentarymagazine.com/" target="_blank">Commentary</a></li>
-					<li><a href="http://www.current.com/" target="_blank">Current</a></li>
-					<li><a href="http://www.daylife.com/" target="_blank">Daylife</a></li>
-					<li><a href="http://elpais.com/" target="_blank">El Pais</a></li>
-					<li><a href="http://www.europarl.es/view/es/index.html" target="_blank">European Parliament</a></li>
-					<li><a href="http://fora.tv/" target="_blank">Fora TV</a></li>
-					<li><a href="http://www.foreignaffairs.com/" target="_blank">Foreign Affairs</a></li>
-					<li><a href="http://www.globalpost.com/" target="_blank">Global Post</a></li>
-					<li><a href="http://gulfnews.com/" target="_blank">Gulf News</a></li>
-					<li><a href="http://www.lefigaro.fr/" target="_blank">Le Figaro</a></li>
-					<li><a href="http://www.lesechos.fr/" target="_blank">Les Echos</a></li>
-					<li><a href="http://www.lemonde.fr/" target="_blank">Le Monde</a></li>
-					<li><a href="http://www.latimes.com/" target="_blank">Los Angeles Times</a></li>
-					<li><a href="http://www.livemint.com/Home.aspx" target="_blank">Mint</a></li>
-					<li><a href="http://www.monocle.com/" target="_blank">Monocle </a></li>
-					<li><a href="http://www.msnbc.msn.com/" target="_blank">MSNBC</a></li>
-					<li><a href="http://www.npr.org/" target="_blank">National Public Radio </a></li>
-					<li><a href="http://www.nationalreview.com/" target="_blank">National Review Online</a></li>
-					<li><a href="http://www.pbs.org/wgbh/pages/frontline/" target="_blank">PBS Frontline</a></li>
-					<li><a href="http://www.portfolio.com/" target="_blank">Portfolio</a></li>
-					<li><a href="http://www.realclearpolitics.com/" target="_blank">Real Clear Politics</a></li>
-					<li><a href="http://www.rollingstone.com/" target="_blank">Rolling Stone</a></li>
-					<li><a href="http://www.salon.com/" target="_blank">Salon</a></li>
-					<li><a href="http://www.texasmonthly.com/" target="_blank">Texas Monthly</a></li>
-					<li><a href="http://www.theatlantic.com/" target="_blank">The Atlantic</a></li>
-					<li><a href="http://www.theaustralian.com.au/" target="_blank">The Australian</a></li>
-					<li><a href="http://www.guardian.co.uk/" target="_blank">The Guardian</a></li>
-					<li><a href="http://www.economist.com/" target="_blank">The Economist</a></li>
-					<li><a href="http://forward.com/" target="_blank">The Forward</a></li>
-					<li><a href="http://www.chron.com/" target="_blank">The Houston Chronicle</a></li>
-					<li><a href="http://www.thenation.com/" target="_blank">The Nation</a></li>
-					<li><a href="http://www.tnr.com/" target="_blank">The New Republic</a></li>
-					<li><a href="http://www.nytimes.com/" target="_blank">The New York Times</a></li>
-					<li><a href="http://www.newyorker.com/" target="_blank">The New Yorker</a></li>
-					<li><a href="http://www.thesundaytimes.co.uk/sto/?CMP=INTstp2" target="_blank">The Sunday Times</a></li>
-					<li><a href="http://www.washingtontimes.com/" target="_blank">The Washington Times</a></li>
-					<li><a href="http://europe.wsj.com/home-page" target="_blank">The Wall Street Journal</a></li>
-					<li><a href="http://timesofindia.indiatimes.com/" target="_blank">Times of India</a></li>
-					<li><a href="http://www.7days.me/" target="_blank">7Days</a></li>
-					<li><a href="http://www.albayan.ae/" target="_blank">Al Bayan</a></li>
-					<li><a href="http://www.alittihad.ae/" target="_blank">Al Ittihad </a></li>
-					<li><a href="http://www.emirates247.com/" target="_blank">Emirates 24/7</a></li>
-					<li><a href="http://www.emaratalyoum.com/" target="_blank">Emarat Al Youm</a></li>
-					<li><a href="http://www.wam.ae/" target="_blank">WAM</a></li>
-					<li><a href="http://gulfnews.com/" target="_blank">Gulf News</a></li>
-					<li><a href="http://www.godubai.com/" target="_blank">Go Dubai</a></li>
-					<li><a href="http://www.khaleejtimes.com/" target="_blank">Khaleej Times</a></li>
-					<li><a href="http://www.thenational.ae/" target="_blank">The National</a></li>
-					<li><a href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/xpress" target="_blank">XPRESS</a></li>
-				</ul>
-			</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<ul>
+							<li><a href="http://www.cbsnews.com/sections/60minutes/main3415.shtml" target="_blank">60 Minutes</a></li>
+							<li><a href="http://www.aljazeera.com/" target="_blank">Al Jazeera </a></li>
+							<li><a href="http://http://www.aldaily.com/" target="_blank">Arts &amp; Letters Daily</a></li>
+							<li><a href="http://http://bigthink.com/" target="_blank">Big Think </a></li>
+							<li><a href="http://www.csmonitor.com/" target="_blank">Christian Science Monitor</a></li>
+							<li><a href="http://edition.cnn.com/" target="_blank">CNN</a></li>
+							<li><a href="http://www.commentarymagazine.com/" target="_blank">Commentary</a></li>
+							<li><a href="http://www.current.com/" target="_blank">Current</a></li>
+							<li><a href="http://www.daylife.com/" target="_blank">Daylife</a></li>
+							<li><a href="http://elpais.com/" target="_blank">El Pais</a></li>
+							<li><a href="http://www.europarl.es/view/es/index.html" target="_blank">European Parliament</a></li>
+							<li><a href="http://fora.tv/" target="_blank">Fora TV</a></li>
+							<li><a href="http://www.foreignaffairs.com/" target="_blank">Foreign Affairs</a></li>
+							<li><a href="http://www.globalpost.com/" target="_blank">Global Post</a></li>
+							<li><a href="http://gulfnews.com/" target="_blank">Gulf News</a></li>
+							<li><a href="http://www.lefigaro.fr/" target="_blank">Le Figaro</a></li>
+							<li><a href="http://www.lesechos.fr/" target="_blank">Les Echos</a></li>
+							<li><a href="http://www.lemonde.fr/" target="_blank">Le Monde</a></li>
+							<li><a href="http://www.latimes.com/" target="_blank">Los Angeles Times</a></li>
+							<li><a href="http://www.livemint.com/Home.aspx" target="_blank">Mint</a></li>
+							<li><a href="http://www.monocle.com/" target="_blank">Monocle </a></li>
+							<li><a href="http://www.msnbc.msn.com/" target="_blank">MSNBC</a></li>
+							<li><a href="http://www.npr.org/" target="_blank">National Public Radio </a></li>
+							<li><a href="http://www.nationalreview.com/" target="_blank">National Review Online</a></li>
+							<li><a href="http://www.pbs.org/wgbh/pages/frontline/" target="_blank">PBS Frontline</a></li>
+							<li><a href="http://www.portfolio.com/" target="_blank">Portfolio</a></li>
+							<li><a href="http://www.realclearpolitics.com/" target="_blank">Real Clear Politics</a></li>
+							<li><a href="http://www.rollingstone.com/" target="_blank">Rolling Stone</a></li>
+							<li><a href="http://www.salon.com/" target="_blank">Salon</a></li>
+							<li><a href="http://www.texasmonthly.com/" target="_blank">Texas Monthly</a></li>
+							<li><a href="http://www.theatlantic.com/" target="_blank">The Atlantic</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<ul>
+							<li><a href="http://www.theaustralian.com.au/" target="_blank">The Australian</a></li>
+							<li><a href="http://www.guardian.co.uk/" target="_blank">The Guardian</a></li>
+							<li><a href="http://www.economist.com/" target="_blank">The Economist</a></li>
+							<li><a href="http://forward.com/" target="_blank">The Forward</a></li>
+							<li><a href="http://www.chron.com/" target="_blank">The Houston Chronicle</a></li>
+							<li><a href="http://www.thenation.com/" target="_blank">The Nation</a></li>
+							<li><a href="http://www.tnr.com/" target="_blank">The New Republic</a></li>
+							<li><a href="http://www.nytimes.com/" target="_blank">The New York Times</a></li>
+							<li><a href="http://www.newyorker.com/" target="_blank">The New Yorker</a></li>
+							<li><a href="http://www.thesundaytimes.co.uk/sto/?CMP=INTstp2" target="_blank">The Sunday Times</a></li>
+							<li><a href="http://www.washingtontimes.com/" target="_blank">The Washington Times</a></li>
+							<li><a href="http://europe.wsj.com/home-page" target="_blank">The Wall Street Journal</a></li>
+							<li><a href="http://timesofindia.indiatimes.com/" target="_blank">Times of India</a></li>
+							<li><a href="http://www.7days.me/" target="_blank">7Days</a></li>
+							<li><a href="http://www.albayan.ae/" target="_blank">Al Bayan</a></li>
+							<li><a href="http://www.alittihad.ae/" target="_blank">Al Ittihad </a></li>
+							<li><a href="http://www.emirates247.com/" target="_blank">Emirates 24/7</a></li>
+							<li><a href="http://www.emaratalyoum.com/" target="_blank">Emarat Al Youm</a></li>
+							<li><a href="http://www.wam.ae/" target="_blank">WAM</a></li>
+							<li><a href="http://gulfnews.com/" target="_blank">Gulf News</a></li>
+							<li><a href="http://www.godubai.com/" target="_blank">Go Dubai</a></li>
+							<li><a href="http://www.khaleejtimes.com/" target="_blank">Khaleej Times</a></li>
+							<li><a href="http://www.thenational.ae/" target="_blank">The National</a></li>
+							<li><a href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/xpress" target="_blank">XPRESS</a></li>
+						</ul>
+					</div>
+				</div>
 			<div class="col-lg-4 col-md-4 col-sm-4" id="issues">
 				<h2 class="gamma centered headline">All Issues</h2>
 			</div>
 		</div>
 	</div>
 </div>
-<footer>
-	<div class="container">
-		<div class="row padded">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 logo"></div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 menu"></div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 connect"></div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-		</div>
-	</div>
-</footer>
-</body>
+<?php include('footer.php') ?>
 </html>

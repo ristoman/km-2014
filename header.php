@@ -20,4 +20,31 @@
 		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
 		<link href='http://fonts.googleapis.com/css?family=PT+Serif|Cabin' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="static/css/styles.css">
-	</head>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="centered">
+				<img class="img-responsive" src="http://placehold.it/728x90" />
+			</div>
+			<a href="/"><h1 class="centered"><img class="img-responsive" src="static/im/header.jpg"></h1></a>
+		</div>
+	</div>
+	<div class="milli topmenu">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul>
+						<li><a href="/#photographers">Photographers</a></li>
+						<li><a href="/#articles">Articles</a></li>
+						<li><a href="/#videos">Videos</a></li>
+						<li><a href="/#archive">Archive</a></li>
+						<li><a href="/#press">World Press</a></li>
+						<li class="pull-right"><a href="/about">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
