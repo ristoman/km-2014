@@ -58,14 +58,30 @@ article{
 		font-weight:700;
 }
 
+#cover, #press{
+	.bg(@color_white);
+}
+
+#photographers, #videos{
+	.bg(@color_black);
+	color:@color_white;
+}
+
+#cover{
+	i{opacity:0.6;
+		&.active{opacity:1}
+	}
+}
+
 header{
 	.bg(#F0EFED);
 	margin-top:24px;
 	.topmenu{
+		height:58px;
 		.bg(@color_black);
 		text-align:left;
 		ul{
-			padding-top:6px;
+			padding-top:18px;
 		}
 		li{
 			font-weight:700;
@@ -77,13 +93,9 @@ header{
 	}
 }
 
-#cover, #press{
-	.bg(@color_white);
-}
-
-#photographers, #videos{
+.carousel-caption{
 	.bg(@color_black);
-	color:@color_white;
+	opacity:0.66;
 }
 
 .credits{

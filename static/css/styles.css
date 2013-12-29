@@ -16,10 +16,12 @@ h6,.zeta{font-size:14pt}
 .milli{font-size:12pt}
 .padded{padding:36px 0}
 article{padding-bottom:120px;margin-bottom:12px;font-weight:700}
-header{background-color:#f0efed;margin-top:24px}header .topmenu{background-color:#0f0e0c;text-align:left}header .topmenu ul{padding-top:6px}
-header .topmenu li{font-weight:700;color:#fff;display:inline;text-transform:uppercase;margin-right:12px}
 #cover,#press{background-color:#ebebeb}
 #photographers,#videos{background-color:#0f0e0c;color:#ebebeb}
+#cover i{opacity:.6}#cover i.active{opacity:1}
+header{background-color:#f0efed;margin-top:24px}header .topmenu{height:58px;background-color:#0f0e0c;text-align:left}header .topmenu ul{padding-top:18px}
+header .topmenu li{font-weight:700;color:#fff;display:inline;text-transform:uppercase;margin-right:12px}
+.carousel-caption{background-color:#0f0e0c;opacity:.66}
 .credits{display:block;margin:0 auto}.credits p{float:left;font-weight:700}
 .credits ul{float:right}
 .credits li{display:inline;margin-right:8px}
