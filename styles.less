@@ -14,8 +14,16 @@
 	margin:0; padding:0;
 }
 
-body, .headline{
+.pt{
 	font-family:'PT Sans', Helvetica, Sans, Arial, sans-serif;
+}
+
+.merri{
+	font-family:'Merriweather', Georgia, serif;
+}
+
+body, .headline{
+	.pt;
 }
 
 .headline{
@@ -23,18 +31,18 @@ body, .headline{
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family:'Merriweather', Georgia, serif;
+	.merri;
 }
 
-h2{border:2px solid; max-width:320px; display:block; margin:24px auto}
+h2{border:2px solid; display:block; margin:24px auto}
 
-h1,.alpha{font-size:50px}
-h2,.beta{font-size:42px}
-h3,.gamma{font-size:34px}
-h4,.delta{font-size:28px}
-h5,.epsilon{font-size:22px}
-h6,.zeta{font-size:18px}
-.milli{font-size:14px}
+h1,.alpha{font-size:54pt}
+h2,.beta{font-size:42pt}
+h3,.gamma{font-size:32pt}
+h4,.delta{font-size:24pt}
+h5,.epsilon{font-size:18pt}
+h6,.zeta{font-size:14pt}
+.milli{font-size:12pt}
 
 .padded{
 	padding:60px 0;
@@ -43,20 +51,24 @@ h6,.zeta{font-size:18px}
 article{
 		padding-bottom:120px;
 		margin-bottom:12px;
+		font-weight:700;
 }
 
 header{
 	margin-top:24px;
-	.navbar{
-	background-color:black;
-	text-align:left;
-	li{
-		font-weight:700;
-		color:white;
-		display:inline;
-		text-transform: uppercase;
-		margin-right:12px;
-	}
+	.topmenu{
+		.bg(@color_black);
+		text-align:left;
+		ul{
+			padding-top:6px;
+		}
+		li{
+			font-weight:700;
+			color:white;
+			display:inline;
+			text-transform: uppercase;
+			margin-right:12px;
+		}
 	}
 }
 
@@ -69,13 +81,30 @@ header{
 	color:@color_white;
 }
 
+.credits{
+	width:33%;
+	display:block;
+	margin:0 auto;
+	p{float:left; font-weight:700}
+	ul{float:right}
+	li{display:inline; margin-right:8px}
+}
+
 #recommend{
 	.bg(@color_gray);
 	li{
+		width:112px;
+		height:50px;
 		display: inline-block;
 		margin: 0px 12px 12px 0px;
+		text-align:center;
+		.bg(@color_white);
 		img{
-			vertical-align: none !important;
+			max-width:112px;
+			max-height:50px;
+			height:100%;
+			width:auto;
+			vertical-align: middle !important;
 		}
 	}
 }
@@ -83,6 +112,8 @@ header{
 #articles{
 	article{
 		border-bottom:6px solid @color_black;
+		h3{font-weight: 700}
+		height:520px;
 	}
 }
 
