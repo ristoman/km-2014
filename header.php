@@ -26,7 +26,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="centered">
-				<img class="img-responsive" src="http://placehold.it/728x90" />
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- BANNER-HEADER -->
+				<ins class="adsbygoogle"
+				    style="display:inline-block;width:728px;height:90px"
+				    data-ad-client="ca-pub-1211026378294378"
+				    data-ad-slot="5766592040"></ins>
+				<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 			</div>
 			<a href="/"><h1 class="centered"><img class="img-responsive" src="static/im/header.jpg"></h1></a>
 		</div>

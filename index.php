@@ -1,4 +1,5 @@
 <html lang="en-US">
+	<title>International Agency for the Promotion of Culture | Klassik Magazine</title>
    <?php include('header.php') ?>
 <div id="cover">
 	<div id="cover-slideshow" class="carousel slide" data-interval="5000" data-ride="carousel">
@@ -212,7 +213,7 @@
 								<a href="article7.php">
 								<h6 class="headline">What Does it Mean?</h6>
 								<img class="img-responsive" src="art-7.jpg" />
-								<h3 class="delta">Hermes Accessories</h3>
+								<h3 class="delta">Compassion</h3>
 								</a>
 							</article>
 						</div>
@@ -222,6 +223,15 @@
 								<h6 class="headline">Books</h6>
 								<img class="img-responsive" src="art-8.jpg" />
 								<h3 class="delta">Coming Soon from Taschen</h3>
+								</a>
+							</article>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+							<article>
+								<a href="article9.php">
+								<h6 class="headline">Artist Interview</h6>
+								<img class="img-responsive" src="art-8.jpg" />
+								<h3 class="delta">Carmen Franko</h3>
 								</a>
 							</article>
 						</div>
