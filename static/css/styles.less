@@ -79,8 +79,10 @@ article{
 
 header{
 	.bg(#F0EFED);
+
 	padding-top:24px;
 	.topmenu{
+		border-bottom:6px solid #F48F24;
 		a{color:@color_white}
 		height:58px;
 		.bg(@color_black);
@@ -188,4 +190,11 @@ header{
 
 footer{
 	.bg(@color_black);
+	li{
+		display:block;
+		& a{
+			color: @color_white;
+			&:hover, &:active{color: @color_gray; text-decoration: none;}
+		}
+	}
 }

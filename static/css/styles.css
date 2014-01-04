@@ -20,7 +20,7 @@ article{padding-bottom:120px;margin-bottom:12px;font-weight:700}
 #cover,#press{background-color:#ebebeb}
 #photographers,#videos{background-color:#0f0e0c;color:#ebebeb}
 #cover i{opacity:.6}#cover i.active{opacity:1}
-header{background-color:#f0efed;padding-top:24px}header .topmenu{height:58px;background-color:#0f0e0c}header .topmenu a{color:#ebebeb}
+header{background-color:#f0efed;padding-top:24px}header .topmenu{border-bottom:6px solid #f48f24;height:58px;background-color:#0f0e0c}header .topmenu a{color:#ebebeb}
 header .topmenu ul{padding-top:18px}
 header .topmenu li{font-weight:700;color:#fff;display:inline;text-transform:uppercase;margin-right:12px}
 .carousel-caption{background-color:#0f0e0c;opacity:.66}
@@ -41,4 +41,4 @@ header .topmenu li{font-weight:700;color:#fff;display:inline;text-transform:uppe
 #article-content p{padding-bottom:12px;margin-bottom:12px}
 #article-content h1{font-weight:700}
 #article-content h2{border:none;padding-top:8px}
-footer{background-color:#0f0e0c}
+footer{background-color:#0f0e0c}footer li{display:block}footer li a{color:#ebebeb}footer li a:hover,footer li a:active{color:#aeaeb0;text-decoration:none}

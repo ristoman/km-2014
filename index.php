@@ -1,4 +1,5 @@
 <?php require_once('get_media.php');?>
+<?php require_once('articles.php');?>
 
 <html lang="en-US">
 	<head>
@@ -33,6 +34,10 @@
 					    <li data-target="#photographer-carousel" data-slide-to="3"></li>
 					    <li data-target="#photographer-carousel" data-slide-to="4"></li>
 					    <li data-target="#photographer-carousel" data-slide-to="5"></li>
+					    <li data-target="#photographer-carousel" data-slide-to="6"></li>
+					    <li data-target="#photographer-carousel" data-slide-to="7"></li>
+					    <li data-target="#photographer-carousel" data-slide-to="8"></li>
+					    <li data-target="#photographer-carousel" data-slide-to="9"></li>
 					</ol>
 
 					  <!-- Wrapper for slides -->
@@ -59,7 +64,7 @@
 				<h2 class="gamma centered headline">We recommend</h2>
 				<div class="col-lg-8 col-md-8 col-sm-8">
 					<ul>
-						<li><a href="http://www.abudhabiyachtshow.com" title="Abu Dhabi Yacht Show" target="_blank"><img src="static/im/recommend/abu_dhabi_yacht_show.gif" alt="Abu Dhabi Yacht Show" /></a></li>
+						<li><a href="http://www.abudhabiyachtshow.com" title="Abu Dhabi Yacht Show" target="_blank"><?php get_staticImage('recommend', 'abu_dhabi_yacht_show', 'gif', 'Abu Dhabi Yacht Show') ?></a></li>
 					    <li><a href="http://www.bhpc.com" title="Beverly Hills Polo Club" target="_blank"><img src="static/im/recommend/beberly_hills_polo_club.gif" alt="Beverly Hills Polo Club" /></a></li>
 					    <li><a href="http://www.marinabaysands.com" title="Marina Bay Sands" target="_blank"><img src="http://klassikmagazine.com/wordpress/images/marinabay.jpg" alt="Marina Bay Sands" /></a></li>
 					    <li><a href="http://www.harrods.com" title="Harrods" target="_blank"><img src="static/im/recommend/harrods.gif" alt="Harrods" /></a></li>
@@ -127,88 +132,13 @@
 				<div class="row padded">
 					<div class="col-lg-9 col-md-9 col-sm-9">
 						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article1.php">
-									<h6 class="headline">by lady sybillia</h6>
-									<img class="img-responsive" src="art-1.jpg" />
-									<h3 class="delta">Chanel Advertising</h3>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article2.php">
-									<h6 class="headline">Exclusive Interview</h6>
-									<img class="img-responsive" src="art-2.jpg" />
-									<h3 class="delta">Harry Halim</h3>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article3.php">
-									<h6 class="headline">London</h6>
-									<img class="img-responsive" src="art-3.jpg" />
-									<h3 class="delta">Hello, my name is Paul Smith</h3>
-									<h5>The Design Museum</h5>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article4.php">
-									<h6 class="headline">by lady sybillia</h6>
-									<img class="img-responsive" src="art-4.jpg" />
-									<h3 class="delta">Hermes Accessories</h3>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article5.php">
-									<h6 class="headline">Artist</h6>
-									<img class="img-responsive" src="art-5.jpg" />
-									<h3 class="delta">Juko Shimizu</h3>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article6.php">
-									<h6 class="headline">Some Recommendations</h6>
-									<img class="img-responsive" src="art-6.jpg" />
-									<h3 class="delta">Quotes from Lao-Tse</h3>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article7.php">
-									<h6 class="headline">What Does it Mean?</h6>
-									<img class="img-responsive" src="art-7.jpg" />
-									<h3 class="delta">Compassion</h3>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article8.php">
-									<h6 class="headline">Books</h6>
-									<img class="img-responsive" src="art-8.jpg" />
-									<h3 class="delta">Coming Soon from Taschen</h3>
-									</a>
-								</article>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
-								<article>
-									<a href="article9.php">
-									<h6 class="headline">Artist Interview</h6>
-									<img class="img-responsive" src="art-8.jpg" />
-									<h3 class="delta">Carmen Franko</h3>
-									</a>
-								</article>
-							</div>
+							<?php 
+
+							for ($i=1; $i<10; $i++){
+								article_listing($i, 'From Lady Sybillia', 'Chanel Advertising');
+							}
+
+							?>
 						</div>
 					</div>
 				<div class="col-lg-3 col-md-3 col-sm-3">
@@ -368,5 +298,5 @@
 			</div>
 		</div>
 	</div>
-	<?php include('footer.php') ?>
+	<?php require_once('footer.php') ?>
 </html>
