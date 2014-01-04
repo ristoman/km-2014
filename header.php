@@ -1,6 +1,5 @@
-<head>
+
         <meta charset="utf-8" />    
-	    <title>International Agency for the Promotion of Culture | Klassik Magazine</title>
         
    	    <!-- Behavioral Meta Data -->
 	    <meta name="apple-mobile-web-app-capable" content="yes">
@@ -25,7 +24,7 @@
 <header>
 	<div class="container">
 		<div class="row">
-			<div class="centered">
+			<div class="centered ad">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- BANNER-HEADER -->
 				<ins class="adsbygoogle"
@@ -43,13 +42,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<ul>
-						<li><a href="/#photographers">Photographers</a></li>
-						<li><a href="/#articles">Articles</a></li>
-						<li><a href="/#videos">Videos</a></li>
-						<li><a href="/#archive">Archive</a></li>
-						<li><a href="/#press">World Press</a></li>
-						<li class="pull-right"><a href="/about">About</a></li>
+					<ul class="pull-left">
+						<li><a href="./#photographers">Photographers</a></li>
+						<li><a href="./#articles">Articles</a></li>
+						<li><a href="./#videos">Videos</a></li>
+						<li><a href="./#archive">Archive</a></li>
+						<li><a href="./#press">World Press</a></li>
+					</ul>
+					<ul class="pull-right">
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/advertising.php">Advertising</a></li>
 					</ul>
 				</div>
 			</div>
