@@ -1,48 +1,24 @@
+<?php require_once('get_media.php');?>
+
 <html lang="en-US">
 	<head>
 	<title>International Agency for the Promotion of Culture | Klassik Magazine</title>
    <?php include('header.php') ?>
-	<div id="cover">
-		<div id="cover-slideshow" class="carousel slide" data-interval="5000" data-ride="carousel">
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#cover-slideshow" data-slide-to="0" class="active"></li>
-	    <li data-target="#cover-slideshow" data-slide-to="1"></li>
-	    <li data-target="#cover-slideshow" data-slide-to="2"></li>
+   </div>
+	  <div id='cover'>
+		<div id='cover-slideshow' class='carousel slide' data-interval='4000' data-ride='carousel'>
+	  <ol class='carousel-indicators'>
+	    <li data-target='#cover-slideshow' data-slide-to='0' class='active'></li>
+	    <li data-target='#cover-slideshow' data-slide-to='1'></li>
+	    <li data-target='#cover-slideshow' data-slide-to='2'></li>
 	  </ol>
-	  <div class="carousel-inner">
-
-	  <?php include('covers.php') ?>
-
-	  <!-- Wrapper for slides
-	    <div class="item active">
-	      <img class="img-responsive" src="cover1.jpg" alt="KM15 Cover by Tina Patni">
-	      <div class="carousel-caption">
-	        <p>Foto: Tina Patni</p>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img class="img-responsive"  src="cover2.jpg" alt="KM15 Cover by Tina Patni">
-	      <div class="carousel-caption">
-	        <p>Foto: Tina Patni</p>
-	      </div>
-	    </div>
-	    <div class="item">
-	      <img class="img-responsive" src="http://placehold.it/1260x760" alt="KM15 Cover by Tina Patni">
-	      <div class="carousel-caption">
-	        <p>Foto: Suresh</p>
-	      </div>
-	    </div-->
-
-	  <!-- Controls -->
-	  <!--a class="left carousel-control" href="#cover-slideshow" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left"></span>
-	  </a>
-	  <a class="right carousel-control" href="#cover-slideshow" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right"></span>
-	  </a-->
-	</div>
-
+	  <div class='carousel-inner'>
+	  		<?php
+	  			carousel_element("cover",1);
+	  			carousel_element("cover",2);
+	  			carousel_element("cover",3);
+	  		?>
+	  </div>
 	</div>
 	<div id="photographers">
 		<div class="container">
@@ -54,28 +30,24 @@
 					    <li data-target="#photographer-carousel" data-slide-to="0" class="active"></li>
 					    <li data-target="#photographer-carousel" data-slide-to="1"></li>
 					    <li data-target="#photographer-carousel" data-slide-to="2"></li>
+					    <li data-target="#photographer-carousel" data-slide-to="3"></li>
+					    <li data-target="#photographer-carousel" data-slide-to="4"></li>
+					    <li data-target="#photographer-carousel" data-slide-to="5"></li>
 					</ol>
 
 					  <!-- Wrapper for slides -->
 					<div class="carousel-inner">
-					    <div class="item active">
-					      	<a href="#"><img class="img-responsive" src="photo.jpg" alt="KM15 Cover"></a>
-					      	<div class="carousel-caption">
-					        	<h3 class="alpha"><b>Aaron Sosa</b></h3>
-					      	</div>
-					    </div>
-					    <div class="item">
-					      	<a href="#"><img class="img-responsive" src="http://placehold.it/960x600" alt="KM15 Cover"></a>
-					      	<div class="carousel-caption">
-					        	<p>Foto: Tina Patni</p>
-					      	</div>
-					    </div>
-					    <div class="item">
-					      	<a href="#"><img class="img-responsive" src="http://placehold.it/960x600" alt="KM15 Cover"></a>
-					      	<div class="carousel-caption">
-					        	<p>Foto: Aaron Sosa</p>
-					      	</div>
-					    </div>
+					    <?php
+	  						carousel_element("photographer",1);
+	  						carousel_element("photographer",2);
+	  						carousel_element("photographer",3);
+	  						carousel_element("photographer",4);
+	  						carousel_element("photographer",5);
+	  						carousel_element("photographer",6);
+	  						carousel_element("photographer",7);
+	  						carousel_element("photographer",8);
+	  						carousel_element("photographer",9);
+	  					?>
 					</div>
 				</div>
 			</div>
