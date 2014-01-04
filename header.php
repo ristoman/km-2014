@@ -1,4 +1,4 @@
-
+<?php require_once('get_media.php'); ?>
         <meta charset="utf-8" />    
         
    	    <!-- Behavioral Meta Data -->
@@ -35,7 +35,7 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 			</div>
-			<a href="/"><h1 class="centered"><img class="img-responsive" src="static/im/header.jpg"></h1></a>
+			<a href="./"><h1 class="centered"><img class="img-responsive" src="static/im/header.jpg"></h1></a>
 		</div>
 	</div>
 	<div class="milli topmenu">

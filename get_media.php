@@ -1,19 +1,24 @@
 <?php
 
-function carousel_element($directory, $i) {
-	  		$photographers=['Tina Patni', 'Suresh', 'Photographer'];
-	  		$artist = $photographers[($i-1)];
-	  		$alt =  'KM15 Cover by' . $artist;
+function carousel_element($directory, $i, $alt='', $linked=false) {
 
-	  		echo "<div class='item";
+echo "<div class='item";
 	  		
 	  			if ($i==1) {echo " active";}
 
 	  		echo"'>";
 	  		
-	  		get_image($directory, $i . '.jpg' , $alt);
 	  			
-	  		echo "<div class='carousel-caption'><p>Foto: {$artist} </p></div></div>";
+
+	  				if ($linked) {echo "<a href='{$directory}.php?id={$i}'>";}
+	  			
+	  				get_image($directory, $i . '.jpg' , $alt);
+
+	  			if ($linked) {echo"</a>";}
+
+	  		echo "<div class='carousel-caption'><p>{$alt} </p>
+	  		</div>
+	  	</div>";
 }
 
 function get_image($route, $id, $alt=''){

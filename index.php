@@ -1,11 +1,16 @@
-<?php require_once('get_media.php');?>
-<?php require_once('articles.php');?>
+<?php  
+	require_once('articles.php');
+	$covers=['Tina Patni', 'Suresh', 'Photographer'];
+  	$photographers=['Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield'];
+
+
+?>
 
 <html lang="en-US">
 	<head>
 	<title>International Agency for the Promotion of Culture | Klassik Magazine</title>
    <?php include('header.php') ?>
-   </div>
+
 	  <div id='cover'>
 		<div id='cover-slideshow' class='carousel slide' data-interval='4000' data-ride='carousel'>
 	  <ol class='carousel-indicators'>
@@ -15,9 +20,9 @@
 	  </ol>
 	  <div class='carousel-inner'>
 	  		<?php
-	  			carousel_element("cover",1);
-	  			carousel_element("cover",2);
-	  			carousel_element("cover",3);
+	  			carousel_element("cover", 1, $covers[0]);
+	  			carousel_element("cover", 2, $covers[1]);
+	  			carousel_element("cover", 3, $covers[2]);
 	  		?>
 	  </div>
 	</div>
@@ -43,15 +48,11 @@
 					  <!-- Wrapper for slides -->
 					<div class="carousel-inner">
 					    <?php
-	  						carousel_element("photographer",1);
-	  						carousel_element("photographer",2);
-	  						carousel_element("photographer",3);
-	  						carousel_element("photographer",4);
-	  						carousel_element("photographer",5);
-	  						carousel_element("photographer",6);
-	  						carousel_element("photographer",7);
-	  						carousel_element("photographer",8);
-	  						carousel_element("photographer",9);
+					    	for ($i=0; $i<8; $i++){
+					    	
+	  						carousel_element("photographer", $i , $photographers[$i], true);
+
+	  						}
 	  					?>
 					</div>
 				</div>
