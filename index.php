@@ -12,20 +12,28 @@
    <?php include('header.php') ?>
 
 	  <div id='cover'>
-		<div id='cover-slideshow' class='carousel slide' data-interval='4000' data-ride='carousel'>
-	  <ol class='carousel-indicators'>
-	    <li data-target='#cover-slideshow' data-slide-to='0' class='active'></li>
-	    <li data-target='#cover-slideshow' data-slide-to='1'></li>
-	    <li data-target='#cover-slideshow' data-slide-to='2'></li>
-	  </ol>
-	  <div class='carousel-inner'>
-	  		<?php
-	  			carousel_element("cover", 1, $covers[0]);
-	  			carousel_element("cover", 2, $covers[1]);
-	  			carousel_element("cover", 3, $covers[2]);
-	  		?>
-	  </div>
-	</div>
+	  	<div class='container'>
+	  		<div class='row'>
+	  			
+		  			<div id='cover-slideshow' class='carousel slide' data-interval='4000' data-ride='carousel'>
+		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				  			<div class='carousel-inner'>
+							  		<?php
+							  			carousel_element("cover", 1, $covers[0]);
+							  			carousel_element("cover", 2, $covers[1]);
+							  			carousel_element("cover", 3, $covers[2]);
+							  		?>
+							</div>
+						<ol class='carousel-indicators'>
+						 	<li data-target='#cover-slideshow' data-slide-to='0' class='active'></li>
+						   	<li data-target='#cover-slideshow' data-slide-to='1'></li>
+						 	<li data-target='#cover-slideshow' data-slide-to='2'></li>
+						</ol>
+					</div>
+						</div>
+			</div>
+		</div>
+	 </div>
 	<div id="photographers">
 		<div class="container">
 			<div class="row padded centered">

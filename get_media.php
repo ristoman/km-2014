@@ -16,9 +16,16 @@ echo "<div class='item";
 
 	  			if ($linked) {echo"</a>";}
 
-	  		echo "<div class='carousel-caption'><p>{$alt} </p>
-	  		</div>
-	  	</div>";
+	  		echo "<div class='carousel-caption'>
+	  				<h1> {$alt} </h1>
+	  				
+	  				<h2>Makeup: Pinolo</h2>
+	  				<h2>Illumination: Budello</h2>
+	  				<h2>Hair: Bottino</h2>
+	  				<h2>Agent: Strozzino</h2>
+	  				<h2>Tegame: Tua Madre, S.A.</h2>
+	  			</div>
+	  		</div>";
 }
 
 function get_image($route, $id, $alt=''){

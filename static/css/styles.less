@@ -1,6 +1,11 @@
 @color_white:#EBEBEB;
 @color_gray:#AEAEB0;
 @color_black:#0f0e0c;
+@color_yellow:#F48F24;
+
+html{
+	max-width:100%;
+}
 
 .bg (@color){
 	background-color:@color;
@@ -42,8 +47,6 @@ h1,h2,h3,h4,h5,h6 {
 	.pt;
 }
 
-h2{border:2px solid; font-weight: 700;}
-
 h1,.alpha{font-size:54pt}
 h2,.beta{font-size:42pt}
 h3,.gamma{font-size:32pt}
@@ -67,6 +70,7 @@ article{
 }
 
 #photographers, #videos{
+	clear:both;
 	.bg(@color_black);
 	color:@color_white;
 }
@@ -82,7 +86,7 @@ header{
 
 	padding-top:24px;
 	.topmenu{
-		border-bottom:6px solid #F48F24;
+		border-bottom:6px solid @color_yellow;
 		a{color:@color_white}
 		height:58px;
 		.bg(@color_black);
@@ -99,17 +103,41 @@ header{
 	}
 }
 
-.carousel-caption{
-	.bg(@color_black);
-	opacity:0.66;
-}
+#cover{
+	.carousel-caption{
+		padding-top:0;
+		margin-top:0;
+		width:20%;
+		min-width:240px;
 
-.credits{
-	display:block;
-	margin:0 auto;
-	p{float:left; font-weight:700}
-	ul{float:right}
-	li{display:inline; margin-right:8px}
+		.bg(rgba(15,13,14,0.66));
+		h1,h2{width:80%; margin:12px auto;}
+		h1{
+			margin-top:0;
+			padding-top:12px;
+			border-top:24px solid @color_yellow;
+			text-shadow:2px 2px 2px #000;
+			.delta; .pt; padding-bottom:12px;
+			border-bottom:1px solid @color_yellow;
+		}
+		top:65%; left:auto; right:48px; bottom:72px;
+		overflow: visible;
+		text-align:left;
+		h2{
+			.milli;
+			.cabin;
+			font-weight:100;
+		}
+	}
+
+	.carousel-indicators{
+		li{
+		width: 24px;
+		height: 24px;
+		border-color:@color_black;
+		&.active{background-color:@color_black}
+		}
+	}
 }
 
 #recommend{
