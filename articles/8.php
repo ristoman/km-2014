@@ -2,7 +2,7 @@
     <?php 
 
 					$title="Taschen: Coming Soon";
-				$headline='';
+				$headline='Books';
 				$text="
 				<ol>
 <li>100 Contemporary Architects

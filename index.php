@@ -1,5 +1,5 @@
 <?php  
-	$covers=['Tina Patni', 'Suresh', 'Photographer'];
+	$covers=['Tina Patni', 'Tina Patni', 'Suresh Natajaran'];
   	$photographers=['Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield'];
 ?>
 
@@ -168,56 +168,68 @@
 				<div class="col-lg-8 col-md-8">
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<a href="//bigthink.com/videos/whats-the-problem-with-the-individual-mandate" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Van Jones</h5>
 								<h3 class="delta">What's the Problem with the Individual Mandate?</h3>
 							</article>
+							</a>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<a href="//bigthink.com/videos/the-secret-lives-of-the-brain-david-eagleman-live-on-big-think-2" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>David Eagleman</h5>
 								<h3 class="delta">The Secret Lives of the Brain</h3>
 							</article>
+							</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<a href="//bigthink.com/ideas/assessing-your-strengths-and-weaknesses" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Robert Steven Kaplan</h5>
 								<h3 class="delta">Assessing Your Strengths and Weaknesses</h3>
 							</article>
+							</a>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 							<article>
+							<a href="http://bigthink.com/ideas/we-need-thinking">
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Slavoj Zizek</h5>
 								<h3 class="delta">We Need Thinking</h3>
 							</article>
+							</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://bigthink.com/ideas/the-power-of-the-critic">
 							<article>
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Ben Brantley</h5>
 								<h3 class="delta">The Power of the Critic</h3>
 							</article>
+							</a>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+							<a href="http://bigthink.com/ideas/where-does-creativity-come-from">
 							<article>
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Eric Kandel</h5>
 								<h3 class="delta">Where Does Creativity Come From?</h3>
 							</article>
+							</a>
 						</div>
 					</div>
 				</div>
