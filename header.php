@@ -1,4 +1,5 @@
-<?php require_once('get_media.php'); ?>
+<?php require_once('get_media.php');
+		require_once('articles.php'); ?>
         <meta charset="utf-8" />    
         
    	    <!-- Behavioral Meta Data -->

@@ -1,9 +1,6 @@
 <?php  
-	require_once('articles.php');
 	$covers=['Tina Patni', 'Suresh', 'Photographer'];
   	$photographers=['Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield'];
-
-
 ?>
 
 <html lang="en-US">
@@ -19,9 +16,9 @@
 		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				  			<div class='carousel-inner'>
 							  		<?php
-							  			carousel_element("cover", 1, $covers[0]);
-							  			carousel_element("cover", 2, $covers[1]);
-							  			carousel_element("cover", 3, $covers[2]);
+							  			carousel_element("cover", 0, $covers[0]);
+							  			carousel_element("cover", 1, $covers[1]);
+							  			carousel_element("cover", 2, $covers[2]);
 							  		?>
 							</div>
 						<ol class='carousel-indicators'>
@@ -49,8 +46,6 @@
 					    <li data-target="#photographer-carousel" data-slide-to="5"></li>
 					    <li data-target="#photographer-carousel" data-slide-to="6"></li>
 					    <li data-target="#photographer-carousel" data-slide-to="7"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="8"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="9"></li>
 					</ol>
 
 					  <!-- Wrapper for slides -->
@@ -144,7 +139,7 @@
 							<?php 
 
 							for ($i=1; $i<10; $i++){
-								article_listing($i, 'From Lady Sybillia', 'Chanel Advertising');
+								article_listing($i);
 							}
 
 							?>

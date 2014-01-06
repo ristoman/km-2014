@@ -1,23 +1,9 @@
-<html lang="en-US">
-    <?php include('header.php') ?>
-<div id="article-cover">
-	<div class="container">
-		<img class="img-responsive" src="http://placehold.it/1280x480">
-		<div class="row">
-		</div>
-	</div>
-</div>
-<div id="article-content">
-	<div class="container epsilon">
-		<div class="row">
-			<div id="headline" class="col-lg-12">
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-					<h1 class="gamma">Taschen: Coming Soon</h1>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-				</div>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8">
+
+    <?php 
+
+					$title="Taschen: Coming Soon";
+				$headline='';
+				$text="
 				<ol>
 <li>100 Contemporary Architects
 <em>Philip Jodidio</em>
@@ -46,7 +32,7 @@
 
 <h6>The editors:</h6>
 
-<p><strong>Steven Heller</strong> is the co-chair of the School of Visual Arts MFA Designer as Author Program. For 33 years he was an art director for The New York Times, and currently writes the "Visuals" column for The New York Times Book Review. He is the author of 120 books on graphic design, illustration, and satiric art.
+<p><strong>Steven Heller</strong> is the co-chair of the School of Visual Arts MFA Designer as Author Program. For 33 years he was an art director for The New York Times, and currently writes the 'Visuals' column for The New York Times Book Review. He is the author of 120 books on graphic design, illustration, and satiric art.
 <strong>Julius Wiedemann</strong> was born in Brazil, studied graphic design and marketing, and was an art editor for digital and design magazines in Tokyo. His many TASCHEN digital and media titles include Illustration Now!, Advertising Now, Logo Design, and Brand Identity Now!</p></li>
 
 <li>Erotica Universalis  Gilles Néret
@@ -89,16 +75,5 @@
 
 <p>[www.taschen.com] (http://www.taschen.com)</p>
 </li></ol>
-
-
-
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs centered">
-				<img src="http://placehold.it/300x600"
-			</div>
-		</div>
-	</div>
-</div>
-<?php include('footer.php') ?>
-</body>
-</html>
+";
+ ?>

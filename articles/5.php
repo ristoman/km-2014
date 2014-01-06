@@ -1,23 +1,8 @@
-<html lang="en-US">
-    <?php include('header.php') ?>
-<div id="article-cover">
-	<div class="container">
-		<img class="img-responsive" src="http://placehold.it/1280x480">
-		<div class="row">
-		</div>
-	</div>
-</div>
-<div id="article-content">
-	<div class="container epsilon">
-		<div class="row">
-			<div id="headline" class="col-lg-12">
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-					<h1 class="gamma">Hermes Collection</h1>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-				</div>
-			</div>
-			<div class="col-lg-8 col-md-8 col-sm-8">
+<?php
+
+$title="Juko Shimizu";
+$headline='Artist';
+$text="
 				<ol>
 <li>100 Contemporary Architects
 <em>Philip Jodidio</em></li>
@@ -50,7 +35,7 @@
 
 <h3>The editors:</h3>
 
-<p><strong>Steven Heller</strong> is the co-chair of the School of Visual Arts MFA Designer as Author Program. For 33 years he was an art director for The New York Times, and currently writes the "Visuals" column for The New York Times Book Review. He is the author of 120 books on graphic design, illustration, and satiric art.
+<p><strong>Steven Heller</strong> is the co-chair of the School of Visual Arts MFA Designer as Author Program. For 33 years he was an art director for The New York Times, and currently writes the 'Visuals' column for The New York Times Book Review. He is the author of 120 books on graphic design, illustration, and satiric art.
 <strong>Julius Wiedemann</strong> was born in Brazil, studied graphic design and marketing, and was an art editor for digital and design magazines in Tokyo. His many TASCHEN digital and media titles include Illustration Now!, Advertising Now, Logo Design, and Brand Identity Now!</p>
 
 <ol>
@@ -66,15 +51,5 @@
 <h3>The author:</h3>
 
 <p>Gilles Néret (1933–2005) was an art historian, journalist, writer and museum correspondent. He organized several art retrospectives in Japan and founded the SEIBU museum and the Wildenstein Gallery in Tokyo. He directed art reviews such as L'Œil and Connaissance des Arts and received the Elie Faure Prize in 1981 for his publications. His TASCHEN titles include Salvador Dalí: The Paintings, Matisse, and Erotica Universalis.</p>
-
-
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs centered">
-				<img src="http://placehold.it/300x600"
-			</div>
-		</div>
-	</div>
-</div>
-<?php include('footer.php') ?>
-</body>
-</html>
+";
+?>
