@@ -1,12 +1,10 @@
-<?php  
-	$covers=['Tina Patni', 'Tina Patni', 'Suresh Natajaran'];
-  	$photographers=['Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield'];
-?>
-
 <html lang="en-US">
 	<head>
 	<title>International Agency for the Promotion of Culture | Klassik Magazine</title>
-   <?php include('header.php') ?>
+   <?php echo phpversion(); include('header.php'); include('get_media.php'); include('articles.php');
+   $photographers=array('Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield');
+   $covers=array('Tina Patni', 'Tina Patni', 'Suresh Natajaran');
+   ?>
 
 	  <div id='cover'>
 	  	<div class='container'>
@@ -16,6 +14,7 @@
 		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				  			<div class='carousel-inner'>
 							  		<?php
+						  			   
 							  			carousel_element("cover", 0, $covers[0]);
 							  			carousel_element("cover", 1, $covers[1]);
 							  			carousel_element("cover", 2, $covers[2]);
@@ -34,7 +33,7 @@
 	<div id="photographers">
 		<div class="container">
 			<div class="row padded centered">
-				<h2 class="gamma centered headline">Photographers</h2>
+				<h2 class="gamma centered line">Photographers</h2>
 				<div id="photographer-carousel" class="carousel slide" data-interval="3000" data-ride="carousel">
 						<!-- Indicators -->
 					<ol class="carousel-indicators">
@@ -51,6 +50,7 @@
 					  <!-- Wrapper for slides -->
 					<div class="carousel-inner">
 					    <?php
+
 					    	for ($i=0; $i<8; $i++){
 					    	
 	  						carousel_element("photographer", $i , $photographers[$i], true);
@@ -65,7 +65,7 @@
 	<div id="recommend">
 		<div class="container">
 			<div class="row padded">
-				<h2 class="gamma centered headline">We recommend</h2>
+				<h2 class="gamma centered line">We recommend</h2>
 				<div class="col-lg-8 col-md-8 col-sm-8">
 					<ul>
 						<li><a href="http://www.abudhabiyachtshow.com" title="Abu Dhabi Yacht Show" target="_blank"><?php get_staticImage('recommend', 'abu_dhabi_yacht_show', 'gif', 'Abu Dhabi Yacht Show') ?></a></li>
@@ -121,20 +121,17 @@
 	<div id="ads" class="centered">
 		<div class="container">
 			<div class="row padded">
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<img src="http://placehold.it/468x60" />
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6">
-					<img src="http://placehold.it/468x60" />
+				<div class="col-lg-12">
+					<?php include('newsletter.php') ?>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="articles">
 		<div class="container">
-				<h2 class="gamma centered headline">Articles</h2>
+				<h2 class="gamma centered line">Articles</h2>
 				<div class="row padded">
-					<div class="col-lg-9 col-md-9 col-sm-9">
+					<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
 						<div class="row">
 							<?php 
 
@@ -145,18 +142,6 @@
 							?>
 						</div>
 					</div>
-				<div class="col-lg-3 col-md-3 col-sm-3">
-					<div class="newsletter">
-						<h5 class="headline">Subscribe to Klassik Magazine</h5>
-							<p>Be the first to know when the next issue will be out.</p>
-							<form>
-								<input placeholder="Your Email">
-								<button>Submit</button>
-							</form>
-					</div>
-					<div class="ad centered padded hidden-xs">
-						<img src="http://placehold.it/160x600">
-					</div>
 				</div>
 			</div>
 		</div>
@@ -164,8 +149,8 @@
 	<div id="videos">
 		<div class="container">
 			<div class="row padded">
-				<h2 class="gamma centered headline">Videos</h2>
-				<div class="col-lg-8 col-md-8">
+				<h2 class="gamma centered line">Videos</h2>
+				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 							<a href="//bigthink.com/videos/whats-the-problem-with-the-individual-mandate" target="_blank">
@@ -173,7 +158,7 @@
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Van Jones</h5>
-								<h3 class="delta">What's the Problem with the Individual Mandate?</h3>
+								<h3 class="epsilon">What's the Problem with the Individual Mandate?</h3>
 							</article>
 							</a>
 						</div>
@@ -183,7 +168,7 @@
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>David Eagleman</h5>
-								<h3 class="delta">The Secret Lives of the Brain</h3>
+								<h3 class="epsilon">The Secret Lives of the Brain</h3>
 							</article>
 							</a>
 						</div>
@@ -195,7 +180,7 @@
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Robert Steven Kaplan</h5>
-								<h3 class="delta">Assessing Your Strengths and Weaknesses</h3>
+								<h3 class="epsilon">Assessing Your Strengths and Weaknesses</h3>
 							</article>
 							</a>
 						</div>
@@ -205,7 +190,7 @@
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Slavoj Zizek</h5>
-								<h3 class="delta">We Need Thinking</h3>
+								<h3 class="epsilon">We Need Thinking</h3>
 							</article>
 							</a>
 						</div>
@@ -217,7 +202,7 @@
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Ben Brantley</h5>
-								<h3 class="delta">The Power of the Critic</h3>
+								<h3 class="epsilon">The Power of the Critic</h3>
 							</article>
 							</a>
 						</div>
@@ -227,14 +212,11 @@
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Eric Kandel</h5>
-								<h3 class="delta">Where Does Creativity Come From?</h3>
+								<h3 class="epsilon">Where Does Creativity Come From?</h3>
 							</article>
 							</a>
 						</div>
 					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-					<img src="http://placehold.it/300x600" />
 				</div>
 			</div>
 		</div>
@@ -243,8 +225,8 @@
 		<div class="container">
 			<div class="row padded">
 				<div class="col-lg-8 col-md-8 col-sm-8 zeta">
-					<h2 class="gamma centered headline">Press</h2>
-						<div class="col-lg-6 col-md-6 col-sm-6">
+					<h2 class="gamma centered line">Press</h2>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 							<ul>
 								<li><a href="http://www.cbsnews.com/sections/60minutes/main3415.shtml" target="_blank">60 Minutes</a></li>
 								<li><a href="http://www.aljazeera.com/" target="_blank">Al Jazeera </a></li>
@@ -279,7 +261,7 @@
 								<li><a href="http://www.theatlantic.com/" target="_blank">The Atlantic</a></li>
 							</ul>
 						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 							<ul>
 								<li><a href="http://www.theaustralian.com.au/" target="_blank">The Australian</a></li>
 								<li><a href="http://www.guardian.co.uk/" target="_blank">The Guardian</a></li>
@@ -308,11 +290,11 @@
 							</ul>
 						</div>
 					</div>
-				<div class="col-lg-4 col-md-4 col-sm-4" id="issues">
-					<h2 class="gamma centered headline">All Issues</h2>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="issues">
+					<h2 class="gamma centered line">All Issues</h2>
 				</div>
 			</div>
 		</div>
 	</div>
-	<?php require_once('footer.php') ?>
+	<?php include('footer.php') ?>
 </html>

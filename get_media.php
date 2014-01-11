@@ -16,7 +16,7 @@ echo "<div class='item";
 	  			if ($linked) {echo"</a>";}
 
 	  		echo "<div class='carousel-caption'>
-	  				<h1> {$alt} </h1>
+	  				<h3>{$alt}</h3>
 	  			</div>
 	  		</div>";
 }

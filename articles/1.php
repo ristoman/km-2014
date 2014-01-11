@@ -3,7 +3,7 @@
 	$title="Chanel Advertising";
 	$headline="By Lady Sybillia";
 	$text="
-		<p><span class='dropcap'>T</span>he legend of Chanel brand has been unsurpassed since Gabrielle Chanel made the radical move of creating a perfume even though being a ‘’couturier’’. The rest is history. Even more, the House of Chanel has been fortunate enough to have Karl Lagerfeld as a creative director, a personality that maintained in terms of concept the Chanel legacy, revolutionizing in a creative way. There was something new to view in each Chanel collection, be it Resort, Haute Couture or Ready-to-Wear. Karl has the magic stick that creates iconic pieces and accessories even out of nothing, something that, along with his unique personality, have made him one of the most influencing person in fashion today.</p>
+		<p>The legend of Chanel brand has been unsurpassed since Gabrielle Chanel made the radical move of creating a perfume even though being a ‘’couturier’’. The rest is history. Even more, the House of Chanel has been fortunate enough to have Karl Lagerfeld as a creative director, a personality that maintained in terms of concept the Chanel legacy, revolutionizing in a creative way. There was something new to view in each Chanel collection, be it Resort, Haute Couture or Ready-to-Wear. Karl has the magic stick that creates iconic pieces and accessories even out of nothing, something that, along with his unique personality, have made him one of the most influencing person in fashion today.</p>
 		<div class='row'>
 		<div class='col-lg-6 col-md-6'>
 			<img class='img-responsive' src='im/article/1/1.jpg' alt='' />

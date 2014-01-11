@@ -1,6 +1,7 @@
    <?php
-   $photographers=['Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield'];
-   include_once('header.php');
+   $photographers=array('Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield');
+   include('header.php'); 
+   include('get_media.php');
 
    	$id= $_GET['id'];
    	$route = (int) $id;
@@ -24,14 +25,15 @@
 			<div class='container'>
 				<div class='row'>
 					<div id='headline' class='col-lg-12'>
-						<div class='col-lg-8 col-md-8 col-sm-8 col-xs-8'>
+						<div class='col-lg-12'>
 							<?php echo "<h1 class='gamma'>{$photographers[$id]}</h1>
-											<h2 class='social'>
+										<h2 class='epsilon'>Featured Photographer</h2>
+											<div class='social'>
 											<div class='fb-share-button' data-href='http://klassikmagazine.com/photographer.php?id={$id}' data-type='button'></div>
 											<a href='//www.pinterest.com/pin/create/button/' data-pin-do='buttonBookmark' ><img src='//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png' /></a>
 											 <a href='https://twitter.com/share' class='twitter-share-button' data-lang='en'>Tweet</a>
 											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
-											</h2>"; 
+											</div>"; 
 							?>
 						</div>
 					</div>
@@ -73,14 +75,9 @@
 
 			echo" 	</div>
 				</div>
-					<div class='row ad centered'>
-					<div class='col-lg-6 col-md-6 col-sm-6 col-6-xs'>
-						<img src='http://placehold.it/468x60'>
-					</div>
-					<div class='col-lg-6 col-md-6 col-sm-6 col-6-xs'>
-						<img src='http://placehold.it/468x60'>
-					</div>
-				</div>
+				<div class='col-lg-12'>";
+							include('newsletter.php');
+			echo" </div>
 			</div>
 		</div>";
 	
