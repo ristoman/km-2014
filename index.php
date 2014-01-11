@@ -201,7 +201,7 @@
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
 							<article>
-							<a href="http://bigthink.com/ideas/we-need-thinking">
+							<a href="http://bigthink.com/ideas/we-need-thinking" target="_blank">
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
 								<h5>Slavoj Zizek</h5>
@@ -212,7 +212,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://bigthink.com/ideas/the-power-of-the-critic">
+							<a href="http://bigthink.com/ideas/the-power-of-the-critic" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
@@ -222,7 +222,7 @@
 							</a>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-							<a href="http://bigthink.com/ideas/where-does-creativity-come-from">
+							<a href="http://bigthink.com/ideas/where-does-creativity-come-from" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
 								<img class="img-responsive" src="http://placehold.it/360x240" />
