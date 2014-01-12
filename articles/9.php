@@ -21,7 +21,7 @@
 Constantly striving for new inspiration, she travels around the world, but
 is based now in Barcelona. Her label 'Carmen Franko' is dedicated to
 exceptional furniture creations.</em></p>
-
+<img class='img-responsive' src='im/article/9/1.jpg'>
 <p><strong>Why are you a designer and how did you get started?</strong></p>
 
 <p>At some point I noticed that the style of interior space tells a story
@@ -32,6 +32,8 @@ privileged to see various expressions of interior design from houses and
 flats to even yachts and other living and leisure spaces. I developed this
 idea to be a part of this conversation happening in these living areas
 using art.</p>
+
+<img class='img-responsive' src='im/article/9/2.jpg'>
 
 <p><strong>Could you tell us some more about your furniture art?</strong></p>
 
@@ -68,6 +70,7 @@ between these divergent ideas and forms, so it take a great deal of
 reflection, thought, and trial and error to get the right placement and
 bring every element together.</p>
 
+
 <p><strong>What inspires you to work?</strong></p>
 
 <p>What inspire me most of all are the artists that I meet and work with.
@@ -78,6 +81,10 @@ breath new life into furniture, where antiques have a particular spirit and
 shape. I get in touch with artists and exceptional furniture makers during
 my frequent excursions. So I am constantly encountering art, antiques, and
 accessories that inspire me to create these unique conceptions.</p>
+
+
+<img class='img-responsive' src='im/article/9/3.jpg'>
+
 
 <p><strong>You seem to use a lot of symbols in your work. Do your works tell stories
 or are they simply decorative elements of the project?</strong></p>
@@ -105,6 +112,8 @@ well. Another designer that I adore is Marcel Wanders. He strives for
 beauty, uniqueness, and a combination of antiques with modern times, just
 as I do. His products and interior designs are truly mind-blowing.</p>
 
+
+
 <p><strong>What other interests do you have outside of your furniture design concept?</strong></p>
 
 <p>I love to paint, to release myself give into some sort of flow, or to try
@@ -112,6 +121,9 @@ out things that I have never tried before. I'm crazy about experiences. I
 have to admit that I can get bored easily. I love to explore and to excite
 myself with all sorts of pleasure and inspiration: traveling, sports, good
 cuisine, events, good conversations, magical and also mad moments.</p>
+
+
+<img class='img-responsive' src='im/article/9/4.jpg'>
 
 <p><strong>How would your life change if you were no longer allowed to create art?</strong></p>
 

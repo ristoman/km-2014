@@ -9,24 +9,52 @@
 	  <div id='cover'>
 	  	<div class='container'>
 	  		<div class='row'>
-	  			
-		  			<div id='cover-slideshow' class='carousel slide' data-interval='4000' data-ride='carousel'>
+	  			<div id='cover-slideshow' class='carousel slide' data-interval='4000' data-ride='carousel'>
 		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				  			<div class='carousel-inner'>
 							  		<?php
 						  			   
-							  			carousel_element("cover", 0, $covers[0]);
-							  			carousel_element("cover", 1, $covers[1]);
-							  			carousel_element("cover", 2, $covers[2]);
+							  			carousel_element("cover", 0);
+							  			carousel_element("cover", 1);
+							  			carousel_element("cover", 2);
 							  		?>
 							</div>
+						<a class="visible-sm visible-xs hidden-md hidden-lg left carousel-control" href="#cover-slideshow" data-slide="prev">
+   						 <span class="glyphicon glyphicon-chevron-left"></span>
+  						</a>
+  					<a class="visible-sm visible-xs hidden-md hidden-lg right carousel-control" href="#cover-slideshow" data-slide="next">
+    					<span class="glyphicon glyphicon-chevron-right"></span>
+  					</a>
 						<ol class='carousel-indicators'>
 						 	<li data-target='#cover-slideshow' data-slide-to='0' class='active'></li>
 						   	<li data-target='#cover-slideshow' data-slide-to='1'></li>
 						 	<li data-target='#cover-slideshow' data-slide-to='2'></li>
 						</ol>
 					</div>
-						</div>
+
+					<a class="left carousel-control" href="#cover-slideshow" data-slide="prev">
+   						 <span class="glyphicon glyphicon-chevron-left"></span>
+  					</a>
+  					<a class="right carousel-control" href="#cover-slideshow" data-slide="next">
+    					<span class="glyphicon glyphicon-chevron-right"></span>
+  					</a>
+				</div>
+			</div>
+			<div class='row' id="photo-credits">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<h6>Foto 1:</h6> <p>Photographer: Tina Patni</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<h6>Foto 2:</h6>
+					<p>Photographer: Tina Patni</p>
+					<p>Fashion director: Stuart Robertson</p>
+					<p>Hair &amp; Makeup: Antonia Toni Malt</p>
+					<p>Model: Zem</p>
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><h6>Foto 3:</h6> <p>Photographer : Suresh Natarajan</p>
+<p>Client : Tanishq Jewelry India</p>
+<p>Creative Director : Sharon Nayak</p>
+<p>Agency : Lowe Bangalore</p></div>
 			</div>
 		</div>
 	 </div>
@@ -68,7 +96,7 @@
 				<h2 class="gamma centered line">We recommend</h2>
 				<div class="col-lg-8 col-md-8 col-sm-8">
 					<ul>
-						<li><a href="http://www.abudhabiyachtshow.com" title="Abu Dhabi Yacht Show" target="_blank"><?php get_staticImage('recommend', 'abu_dhabi_yacht_show', 'gif', 'Abu Dhabi Yacht Show') ?></a></li>
+						<li><a href="http://www.abudhabiyachtshow.com" title="Abu Dhabi Yacht Show" target="_blank"><img src="static/im/abu_dhabi_yacht_show.gif"></a></li>
 					    <li><a href="http://www.bhpc.com" title="Beverly Hills Polo Club" target="_blank"><img src="static/im/recommend/beberly_hills_polo_club.gif" alt="Beverly Hills Polo Club" /></a></li>
 					    <li><a href="http://www.marinabaysands.com" title="Marina Bay Sands" target="_blank"><img src="http://klassikmagazine.com/wordpress/images/marinabay.jpg" alt="Marina Bay Sands" /></a></li>
 					    <li><a href="http://www.harrods.com" title="Harrods" target="_blank"><img src="static/im/recommend/harrods.gif" alt="Harrods" /></a></li>
@@ -156,9 +184,9 @@
 							<a href="//bigthink.com/videos/whats-the-problem-with-the-individual-mandate" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
-								<img class="img-responsive" src="http://placehold.it/360x240" />
+								<img class="img-responsive" src="im/video/1.jpg" />
 								<h5>Van Jones</h5>
-								<h3 class="epsilon">What's the Problem with the Individual Mandate?</h3>
+								<h3 class="delta">What's the Problem with the Individual Mandate?</h3>
 							</article>
 							</a>
 						</div>
@@ -166,9 +194,9 @@
 							<a href="//bigthink.com/videos/the-secret-lives-of-the-brain-david-eagleman-live-on-big-think-2" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
-								<img class="img-responsive" src="http://placehold.it/360x240" />
+								<img class="img-responsive" src="im/video/2.jpg" />
 								<h5>David Eagleman</h5>
-								<h3 class="epsilon">The Secret Lives of the Brain</h3>
+								<h3 class="delta">The Secret Lives of the Brain</h3>
 							</article>
 							</a>
 						</div>
@@ -178,9 +206,9 @@
 							<a href="//bigthink.com/ideas/assessing-your-strengths-and-weaknesses" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
-								<img class="img-responsive" src="http://placehold.it/360x240" />
+								<img class="img-responsive" src="im/video/3.jpg" />
 								<h5>Robert Steven Kaplan</h5>
-								<h3 class="epsilon">Assessing Your Strengths and Weaknesses</h3>
+								<h3 class="delta">Assessing Your Strengths and Weaknesses</h3>
 							</article>
 							</a>
 						</div>
@@ -188,9 +216,9 @@
 							<article>
 							<a href="http://bigthink.com/ideas/we-need-thinking" target="_blank">
 								<h6 class="headline">Big Think</h6>
-								<img class="img-responsive" src="http://placehold.it/360x240" />
+								<img class="img-responsive" src="im/video/4.jpg" />
 								<h5>Slavoj Zizek</h5>
-								<h3 class="epsilon">We Need Thinking</h3>
+								<h3 class="delta">We Need Thinking</h3>
 							</article>
 							</a>
 						</div>
@@ -200,9 +228,9 @@
 							<a href="http://bigthink.com/ideas/the-power-of-the-critic" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
-								<img class="img-responsive" src="http://placehold.it/360x240" />
+								<img class="img-responsive" src="im/video/5.jpg" />
 								<h5>Ben Brantley</h5>
-								<h3 class="epsilon">The Power of the Critic</h3>
+								<h3 class="delta">The Power of the Critic</h3>
 							</article>
 							</a>
 						</div>
@@ -210,9 +238,9 @@
 							<a href="http://bigthink.com/ideas/where-does-creativity-come-from" target="_blank">
 							<article>
 								<h6 class="headline">Big Think</h6>
-								<img class="img-responsive" src="http://placehold.it/360x240" />
+								<img class="img-responsive" src="im/video/6.jpg" />
 								<h5>Eric Kandel</h5>
-								<h3 class="epsilon">Where Does Creativity Come From?</h3>
+								<h3 class="delta">Where Does Creativity Come From?</h3>
 							</article>
 							</a>
 						</div>
@@ -224,9 +252,9 @@
 	<div id="press">
 		<div class="container">
 			<div class="row padded">
-				<div class="col-lg-8 col-md-8 col-sm-8 zeta">
-					<h2 class="gamma centered line">Press</h2>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<div class="col-lg-12 col-md-12 col-sm-12 zeta">
+					<h2 class="gamma centered line">World Press</h2>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 							<ul>
 								<li><a href="http://www.cbsnews.com/sections/60minutes/main3415.shtml" target="_blank">60 Minutes</a></li>
 								<li><a href="http://www.aljazeera.com/" target="_blank">Al Jazeera </a></li>
@@ -246,6 +274,11 @@
 								<li><a href="http://www.lefigaro.fr/" target="_blank">Le Figaro</a></li>
 								<li><a href="http://www.lesechos.fr/" target="_blank">Les Echos</a></li>
 								<li><a href="http://www.lemonde.fr/" target="_blank">Le Monde</a></li>
+								
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<ul>
 								<li><a href="http://www.latimes.com/" target="_blank">Los Angeles Times</a></li>
 								<li><a href="http://www.livemint.com/Home.aspx" target="_blank">Mint</a></li>
 								<li><a href="http://www.monocle.com/" target="_blank">Monocle </a></li>
@@ -259,20 +292,15 @@
 								<li><a href="http://www.salon.com/" target="_blank">Salon</a></li>
 								<li><a href="http://www.texasmonthly.com/" target="_blank">Texas Monthly</a></li>
 								<li><a href="http://www.theatlantic.com/" target="_blank">The Atlantic</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-							<ul>
 								<li><a href="http://www.theaustralian.com.au/" target="_blank">The Australian</a></li>
 								<li><a href="http://www.guardian.co.uk/" target="_blank">The Guardian</a></li>
 								<li><a href="http://www.economist.com/" target="_blank">The Economist</a></li>
 								<li><a href="http://forward.com/" target="_blank">The Forward</a></li>
 								<li><a href="http://www.chron.com/" target="_blank">The Houston Chronicle</a></li>
-								<li><a href="http://www.thenation.com/" target="_blank">The Nation</a></li>
-								<li><a href="http://www.tnr.com/" target="_blank">The New Republic</a></li>
-								<li><a href="http://www.nytimes.com/" target="_blank">The New York Times</a></li>
-								<li><a href="http://www.newyorker.com/" target="_blank">The New Yorker</a></li>
-								<li><a href="http://www.thesundaytimes.co.uk/sto/?CMP=INTstp2" target="_blank">The Sunday Times</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<ul>
 								<li><a href="http://www.washingtontimes.com/" target="_blank">The Washington Times</a></li>
 								<li><a href="http://europe.wsj.com/home-page" target="_blank">The Wall Street Journal</a></li>
 								<li><a href="http://timesofindia.indiatimes.com/" target="_blank">Times of India</a></li>
@@ -287,12 +315,15 @@
 								<li><a href="http://www.khaleejtimes.com/" target="_blank">Khaleej Times</a></li>
 								<li><a href="http://www.thenational.ae/" target="_blank">The National</a></li>
 								<li><a href="http://gulfnews.com/about-gulf-news/al-nisr-portfolio/xpress" target="_blank">XPRESS</a></li>
+								<li><a href="http://www.thenation.com/" target="_blank">The Nation</a></li>
+								<li><a href="http://www.tnr.com/" target="_blank">The New Republic</a></li>
+								<li><a href="http://www.nytimes.com/" target="_blank">The New York Times</a></li>
+								<li><a href="http://www.newyorker.com/" target="_blank">The New Yorker</a></li>
+								<li><a href="http://www.thesundaytimes.co.uk/sto/?CMP=INTstp2" target="_blank">The Sunday Times</a></li>
 							</ul>
+							</div>
 						</div>
 					</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="issues">
-					<h2 class="gamma centered line">All Issues</h2>
-				</div>
 			</div>
 		</div>
 	</div>

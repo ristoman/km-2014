@@ -1,7 +1,9 @@
-        <meta charset="utf-8" />    
-		<!-- Twitter Card Meta Data -->
-		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
-		<link href='http://fonts.googleapis.com/css?family=PT+Serif|Cabin' rel='stylesheet' type='text/css'>
+        <meta charset="utf-8" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+ 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+		<link href='//fonts.googleapis.com/css?family=PT+Serif|Cabin' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="static/css/styles.css">
 </head>
 <body>
@@ -34,8 +36,18 @@
 							<li><a href="./#articles">Articles</a></li>
 							<li><a href="./#videos">Videos</a></li>
 							<li><a href="./#press">World Press</a></li>
+							<li class='visible-xs'><a href="about.php">About</a></li>
+          					<li class='visible-xs'><a href="advertising.php">Advertising</a></li>
 						</ul>
-							
+						<ul class="nav navbar-nav navbar-right">
+      <li class="hidden-xs dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="about.php">About</a></li>
+          <li><a href="advertising.php">Advertising</a></li>
+        </ul>
+      </li>
+    </ul>
 						</div>
 					</nav>
 				</div>

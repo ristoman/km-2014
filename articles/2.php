@@ -1,7 +1,7 @@
 <?php 
 
-	$title="Harry Halim";
-	$headline="Exclusive Interview";
+	$title="Harry Halim Interview";
+	$headline="By Rewat Chumnarn";
 	$text="<blockquote>
 				<p>'The approach of fashion nowadays is always related to the historical and the culture. I think there is nothing new anymore in this moment. What we all do now is to look back into the past and re-develop what is already there… and combine it with our own style in a modern way.'</p>
 			</blockquote>
@@ -57,6 +57,6 @@
 				<p>Bad things happen whether you are afraid or not, so I might as well not bother being scared of it. Think of the present time and the future goal. Never ever be scared of what steps you are going to take. Make mistakes as much as you can. It's the only way to help you grow up to become a better person in the future.</p>
 				<p>Story : Rewat Chumnarn 
 				<p>Photo : Press 
-				<p>Special Thanks : Harry Halim, for sharing his thoughts with me <a href='//www.hhharryhalim.com'>www.hhharryhalim.com</a></p>";
+				<p>Special Thanks : Harry Halim, for sharing his thoughts with me <a href='//www.hhharryhalim.com' target+'_blank'>www.hhharryhalim.com</a></p>";
 
 ?>

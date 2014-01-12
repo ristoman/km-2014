@@ -53,26 +53,26 @@ h1,
 }
 h2,
 .beta {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
 }
 h3,
 .gamma {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 h4,
 .delta {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 h5,
 .epsilon {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 h6,
 .zeta {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .milli {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 .padded {
   padding: 36px 0;
@@ -112,16 +112,11 @@ header .topmenu a {
   color: #0f0e0c;
 }
 header .topmenu li {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'PT Serif', Georgia, serif;
   display: inline;
   text-transform: uppercase;
   margin-right: 3px;
-}
-@media screen and (max-width: 786px) {
-  header .topmenu li {
-    font-size: 1.2rem;
-  }
 }
 header .navbar-default {
   border: none;
@@ -133,7 +128,7 @@ header .navbar-default .navbar-toggle .icon-bar {
 #tagline {
   border-bottom: 1px solid #f48f24;
   margin-bottom: 12px;
-  color: #aeaeb0;
+  color: #0f0e0c;
 }
 #cover {
   background-color: #f6f6f6;
@@ -142,25 +137,8 @@ header .navbar-default .navbar-toggle .icon-bar {
   border: 12px solid #0f0e0c;
   margin: 24px auto;
 }
-#cover .carousel-caption {
-  background-color: rgba(15, 13, 14, 0.66);
-  /*margin:0 auto;
-		width:100%;
-		h3{
-			margin-top:0;
-			padding-top:12px;
-			text-shadow:2px 2px 2px #000;
-			.delta; .pt; padding-bottom:12px;
-			border-bottom:1px solid @color_yellow;
-		}
-		text-align:left;
-		h2{
-			.milli;
-			.cabin;
-			font-weight:100;
-		}*/
-}
 #cover .carousel-indicators {
+  margin-top: 24px;
   clear: both;
   position: relative;
 }
@@ -172,6 +150,12 @@ header .navbar-default .navbar-toggle .icon-bar {
 #cover .carousel-indicators li.active {
   background-color: #0f0e0c;
   border-color: #0f0e0c;
+}
+#cover #photo-credits {
+  font-size: 1rem;
+  color: #aeaeb0;
+  text-align: center;
+  margin-bottom: 24px;
 }
 #recommend {
   background-color: #aeaeb0;
@@ -212,15 +196,10 @@ header .navbar-default .navbar-toggle .icon-bar {
 }
 #articles article h5 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
-@media screen and (max-width: 991px) {
-  #articles article h6 {
-    height: 2rem;
-  }
-  #articles article h5 {
-    font-size: 1.5rem;
-  }
+#articles article h6 {
+  height: 2rem;
 }
 #videos article {
   border-bottom: 6px solid #efefef;
@@ -262,10 +241,10 @@ header .navbar-default .navbar-toggle .icon-bar {
   text-align: center;
 }
 #photographer #headline h1 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
 }
 #photographer #headline h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .article .social {
   margin-bottom: 24px;
@@ -282,10 +261,10 @@ header .navbar-default .navbar-toggle .icon-bar {
   border-bottom: 1px solid #aeaeb0;
 }
 .article blockquote p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .article p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 24px 0;
 }
 .article h1 {
@@ -294,6 +273,10 @@ header .navbar-default .navbar-toggle .icon-bar {
 .article h2 {
   border: none;
   padding-top: 8px;
+}
+.article img {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 footer {
   background-color: #0f0e0c;
@@ -308,4 +291,16 @@ footer li a:hover,
 footer li a:active {
   color: #aeaeb0;
   text-decoration: none;
+}
+#social {
+  font-size: 2.2rem;
+}
+#social li {
+  display: inline;
+}
+#article-carousel {
+  margin-bottom: 36px;
+}
+#article-carousel .carousel-indicators {
+  background-color: rgba(15, 14, 12, 0.5);
 }

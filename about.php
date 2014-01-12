@@ -2,14 +2,24 @@
 	<head>
 	<title>International Agency for the Promotion of Culture | Klassik Magazine</title>
    <?php include('header.php') ?>
+<div class='article'>
    <div class="container">
    		<div class="row">
-   			<div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'>
+   			<div id='headline'>
+				<div class='row'>
+						<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>
+							<h1 class='gamma'>About Klassik Magazine</h1>
+						</div>
+						<div class='col-lg-8 col-md-8 col-sm-8 col-xs-12'></div>
+				</div>
+			</div>
+			<div class='row'>
+   			<div class='col-lg-8 col-md-8 col-sm-12 col-xs-12'>
 			   <p>Klassik Magazine Europe – India – UAE is an exclusive interactive publication that facilitates the establishment of new ways in diversified thinking in the name of inspired creativity and innovation between Europe, India and UAE.</p>
 
 			<p>Each issue of Klassik Magazine is an unrivaled media event that reaches millions of modern, sophisticated consumers who create demand for your brand.</p>
 
-			<p>Klassik Magazine is a digital magazine dedicated to Culture, Photography, Fashion, Art, Design, Illustration, Architecture, Culture Database, Human rights, Environment, Health &amp; Beauty, Hotels, Spas &amp; Resort.</p>
+			<p>Klassik Magazine is a digital magazine dedicated to Culture, Photography, Fashion, Film, Art, Design, Illustration, Architecture, Culture Database, Human rights, Environment, Health &amp; Beauty, Hotels, Spas &amp; Resort.</p>
 
 			<p>Klassik Magazine connects UAE, India and Europe styles for all customers with hip products and services, providing and unequaled branding environment on the internet for an exclusive set of advertisers.</p>
 
@@ -19,13 +29,14 @@
 
 			<p>Klassik Magazine would like to thank:</p>
 
-			<pre><code>Clara Roig, Jörgen Schölle, Olga Pucurull, Daniel Sancho, Uwe Wütherich, Josep Maria Francino, Albert Claravalls, Gemma Sagarra, Encarna Carneros, Egle Rodriguez, Amparo Aguado, Josep Reig, Eva Palacios, Laura Grau, Juan Dominguez Latorre, Marta Gonzalez Molina, Thais Tel i Colomines, Vanessa Wittemberg, Monir Touiss, Francesca, April Ageitos, Irina Pushkavera, Jordan Rivera, Gerard Dalmau, Mose Hayward, Manuela Redondo, Ahmet Cogragan, Dr. Carlos Jarné, Dr. Joan Josep Castillon Zazurca, Sampat Kumar, Gigi, Ana Gol Gay, Marcos, Nuria Palacios, Dann Cannon, Viçens Ibars, Andrew Keech, Leo Gandema, Chloe, Alexandra Gandema, Sophie Makker, Martí Cormand, Patricia Maiza, Quim Issuar, Jordi Chacón, Daniel Sancho, Bernardo Pimentel, Andrea Ristori
-			</code></pre>
+			<blockquote>Clara Roig, Jörgen Schölle, Olga Pucurull, Daniel Sancho, Uwe Wütherich, Josep Maria Francino, Albert Claravalls, Gemma Sagarra, Encarna Carneros, Egle Rodriguez, Amparo Aguado, Josep Reig, Eva Palacios, Laura Grau, Juan Dominguez Latorre, Marta Gonzalez Molina, Thais Tel i Colomines, Vanessa Wittemberg, Monir Touiss, Francesca, April Ageitos, Irina Pushkavera, Jordan Rivera, Gerard Dalmau, Mose Hayward, Manuela Redondo, Ahmet Cogragan, Dr. Carlos Jarné, Dr. Joan Josep Castillon Zazurca, Sampat Kumar, Gigi, Ana Gol Gay, Marcos, Nuria Palacios, Dann Cannon, Viçens Ibars, Andrew Keech, Leo Gandema, Chloe, Alexandra Gandema, Sophie Makker, Martí Cormand, Patricia Maiza, Quim Issuar, Jordi Chacón, Daniel Sancho, Bernardo Pimentel, Andrea Ristori
+			</blockquote>
 
 			<p>I dedicate this magazine to my father, Juan Gómez Ramón. Thanks to everything I learned from you and made me what I am. Thank you for being part of my fortune.</p>
 
-			<p>~Laura Gomez, Founder</p>
+			<p><em>~Laura Gomez, Founder</em></p>
 			</div>
 		</div>
 	</div>
+</div>
 <?php include('footer.php') ?>

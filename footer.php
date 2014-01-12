@@ -7,18 +7,17 @@
 					<li><a href="./#photographers">Photographers</a></li>
 					<li><a href="./#articles">Articles</a></li>
 					<li><a href="./#videos">Videos</a></li>
-					<li><a href="./#archive">Archive</a></li>
 					<li><a href="./#press">World Press</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 connect">
-				<ul id="social">
-					<li><a target="_blank" href="//www.facebook.com/groups/126127967408554/">Facebook</a></li>
-					<li><a target="_blank" href="//www.pinterest.com/klassikmagazine/">Pinterest</a></li>
-				</ul>
 				<ul>
 					<li><a href="about.php">About</a></li>
 					<li><a href="advertising.php">Advertising</a></li>
+				</ul>
+				<ul id="social">
+					<li><a target="_blank" href="//www.facebook.com/groups/126127967408554/"><i class="fa fa-facebook-square"></i></a></li>
+					<li><a target="_blank" href="//www.pinterest.com/klassikmagazine/"><i class="fa fa-pinterest-square"></i></a></li>
 				</ul>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
@@ -26,7 +25,7 @@
 	</div>
 </footer>
 <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

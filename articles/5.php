@@ -3,17 +3,17 @@
 $title="Juko Shimizu";
 $headline='Artist';
 
-$text = '<div id="photographer-carousel" style="height:480px" class="carousel slide" data-interval="3000" data-ride="carousel">
+$text = '<div id="article-carousel" style="height:480px" class="carousel slide" data-interval="3000" data-ride="carousel">
 						<!-- Indicators -->
 					<ol class="carousel-indicators">
-					    <li data-target="#photographer-carousel" data-slide-to="0" class="active"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="1"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="2"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="3"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="4"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="5"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="6"></li>
-					    <li data-target="#photographer-carousel" data-slide-to="7"></li>
+					    <li data-target="#article-carousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#article-carousel" data-slide-to="1"></li>
+					    <li data-target="#article-carousel" data-slide-to="2"></li>
+					    <li data-target="#article-carousel" data-slide-to="3"></li>
+					    <li data-target="#article-carousel" data-slide-to="4"></li>
+					    <li data-target="#article-carousel" data-slide-to="5"></li>
+					    <li data-target="#article-carousel" data-slide-to="6"></li>
+					    <li data-target="#article-carousel" data-slide-to="7"></li>
 					</ol>
 
 					  <!-- Wrapper for slides -->
