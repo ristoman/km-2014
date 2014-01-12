@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="centered" id='tagline'>
-				<h6><em>International Agency for the Promotion of Culture</em></h6>
+				<h5>International Agency for the Promotion of Culture</h6>
 			</div>
 			<a href="./"><h1 class="centered"><img class="img-responsive" src="static/im/header.jpg"></h1></a>
 		</div>
@@ -18,7 +18,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<nav class="navbar navbar-inverse" role="navigation">
+					<nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -33,13 +33,9 @@
 							<li><a href="./#photographers">Photographers</a></li>
 							<li><a href="./#articles">Articles</a></li>
 							<li><a href="./#videos">Videos</a></li>
-							<li><a href="./#archive">Archive</a></li>
 							<li><a href="./#press">World Press</a></li>
 						</ul>
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="/about.php">About</a></li>
-								<li><a href="/advertising.php">Advertising</a></li>
-							</ul-->
+							
 						</div>
 					</nav>
 				</div>

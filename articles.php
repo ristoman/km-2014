@@ -23,26 +23,25 @@ function get_article($id){
    	include('get_media.php');
    	echo" <div class='article'>
 			<div class='container'>
+				<div id='headline'>
 				<div class='row'>
-					<div class='col-lg-8 col-md-8 col-sm-8'>
-						<div id='headline'>";
-						
+						<div class='col-lg-4 col-md-4 col-sm-4 col-xs-12'>
+							<h1 class='gamma'>{$title}</h1>
+							<h2 class='epsilon'>{$headline}</h2>
+							<div class='social'>
+								<div class='fb-share-button' data-href='http://klassikmagazine.com/photographer.php?id={$id}' data-type='button'></div>
+								<a href='//www.pinterest.com/pin/create/button/' data-pin-do='buttonBookmark' ><img src='//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png' /></a>
+								 <a href='https://twitter.com/share' class='twitter-share-button' data-lang='en'>Tweet</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
+							</div>
+						</div>
+						<div class='col-lg-8 col-md-8 col-sm-8 col-xs-12'>";
 						get_image('article/' . $id , 'splash.jpg');
-
-	echo"						
-								<h1 class='gamma'>{$title}</h1>
-								<h2 class='epsilon'>{$headline}</h2>
-								<div class='social'>
-											<div class='fb-share-button' data-href='http://klassikmagazine.com/photographer.php?id={$id}' data-type='button'></div>
-											<a href='//www.pinterest.com/pin/create/button/' data-pin-do='buttonBookmark' ><img src='//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png' /></a>
-											 <a href='https://twitter.com/share' class='twitter-share-button' data-lang='en'>Tweet</a>
-											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
-											</div>
-						<div id='article-cover'>
-						
-						
-								
-						</div></div> ". $text .
+					echo"</div>
+					</div>
+				</div>
+				<div class='row'>
+					<div class='col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12'> ". $text .
 				"	</div>
 					</div>
 				</div>

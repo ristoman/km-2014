@@ -1,7 +1,7 @@
 <html lang="en-US">
 	<head>
 	<title>International Agency for the Promotion of Culture | Klassik Magazine</title>
-   <?php echo phpversion(); include('header.php'); include('get_media.php'); include('articles.php');
+   <?php include('header.php'); include('get_media.php'); include('articles.php');
    $photographers=array('Aaron Sosa', 'Cade Martin', 'Fran Martinez', 'Jonas Jensen', 'Karim Hesham', 'Kristin Sinclair', 'Lisa Sciascia', 'Robin Westfield');
    $covers=array('Tina Patni', 'Tina Patni', 'Suresh Natajaran');
    ?>

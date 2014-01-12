@@ -26,8 +26,8 @@
 				<div class='row'>
 					<div id='headline' class='col-lg-12'>
 						<div class='col-lg-12'>
-							<?php echo "<h1 class='gamma'>{$photographers[$id]}</h1>
-										<h2 class='epsilon'>Featured Photographer</h2>
+							<?php echo "<h1>{$photographers[$id]}</h1>
+										<h2>Featured Photographer</h2>
 											<div class='social'>
 											<div class='fb-share-button' data-href='http://klassikmagazine.com/photographer.php?id={$id}' data-type='button'></div>
 											<a href='//www.pinterest.com/pin/create/button/' data-pin-do='buttonBookmark' ><img src='//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png' /></a>

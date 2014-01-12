@@ -17,8 +17,8 @@
 					<li><a target="_blank" href="//www.pinterest.com/klassikmagazine/">Pinterest</a></li>
 				</ul>
 				<ul>
-					<li><a href="/about.php">About</a></li>
-					<li><a href="/advertising.php">Advertising</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="advertising.php">Advertising</a></li>
 				</ul>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
